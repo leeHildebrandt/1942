@@ -137,10 +137,10 @@ document.onkeydown = function (a) {
     // keyCode 39 is for the right key
     hero.x += 10;
   } else if (a.keyCode == 38) {
-    // keyCode 39 is for the right key
+    // keyCode 38 is for the up key
     hero.y -= 10;
   } else if (a.keyCode == 40) {
-    // keyCode 39 is for the right key
+    // keyCode 40 is for the down key
     hero.y += 10;
   } else if (a.keyCode == 32) {
     bullets.push({ x: hero.x + 8, y: hero.y - 15 });
