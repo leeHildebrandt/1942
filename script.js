@@ -118,7 +118,7 @@ function BulletAndEnemyCollision() {
         score += 10;
         explosion.push({ x: enemies[j].x, y: enemies[j].y });
         playCollisionSound(); // Play the collision sound
-        // Set a timer to remove the explosion after 500 milliseconds (adjust as needed)
+        // Set a timer to remove the explosion after 500 milliseconds
         setTimeout(function () {
           explosion.shift(); // Remove the first explosion element
           displayExplosion(); // Update the display after removing
